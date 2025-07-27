@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Increment Button</title>
+</head>
+<body>
+
+<div id="container"></div>
+
+<script>
+  const container = document.getElementById('container');
+  let startID = 23041450085; // ID awal
+  let jumlah = 10; // jumlah tombol yang ingin dibuat
+  let increment = 1; // atau ganti jadi 10 kalau mau nambah 10 tiap kali
+
+  for (let i = 0; i < jumlah; i++) {
+    let currentID = startID + (i * increment);
+    let button = document.createElement('input');
+    button.type = 'button';
+    button.name = 'btnTranskrip';
+    button.value = 'Transkrip Nilai ' + currentID;
+    button.className = 'btn btn-primary';
+    button.setAttribute('onclick', `fnCetakTranskrip('${currentID}', 0)`);
+    
+    container.appendChild(button);
+    container.appendChild(document.createElement('br')); // biar tombolnya turun ke bawah
+  }
+
+  function fnCetakTranskrip(nim, angka) {
+    alert(`Cetak Transkrip untuk NIM: ${nim} dan nilai: ${angka}`);
+    // atau ganti dengan aksi lain, misal buka link:
+    // window.open('https://example.com/transkrip/' + nim);
+  }
+</script>
+
+</body>
+</html>

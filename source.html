@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+  <head>
+  <link rel="icon" type="image/x-icon" href="themes/assets/images/logo.png" />
+  <TITLE>UIN - Raden Fatah Palembang</TITLE>
+  <META http-equiv="cache-control" content="max-age=0"/>
+  <META http-equiv="pragma" content="no-cache"/>
+  <META http-equiv="expires" content="0" />
+  <META http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <META content="Pustipd - UIN Raden Fatah Palembang" name="Author" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <META content="Sistem informasi manajemen kampus uin raden fatah palembang" name="description" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+  <link href="themes/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+  <link href="themes/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="themes/assets/css/core.css" rel="stylesheet" type="text/css">
+  <link href="themes/assets/css/components.css" rel="stylesheet" type="text/css">
+  <link href="themes/assets/css/colors.css" rel="stylesheet" type="text/css">
+  <!-- /global stylesheets -->
+
+  <!-- Core JS files -->
+  <script type="text/javascript" src="themes/assets/js/plugins/loaders/pace.min.js"></script>
+  <script type="text/javascript" src="themes/assets/js/core/libraries/jquery.min.js"></script>
+  <script type="text/javascript">
+          $(function(){
+            $(":radio.rad").click(function(){
+              $("#bekerja, #wiraswasta, #belumbekerja").hide()
+              if($(this).val() == "1"){
+                $("#bekerja").show();
+              }else if($(this).val() == "2"){
+                $("#wiraswasta").show();
+              }else{
+                $("#belumbekerja").show();
+              }
+            });
+          });
+  </script>
+  <script type="text/javascript" src="themes/assets/js/core/libraries/bootstrap.min.js"></script>
+  <script type="text/javascript" src="themes/assets/js/plugins/loaders/blockui.min.js"></script>
+  <!-- /core JS files -->
+  <!-- Theme JS files -->
+<script type="text/javascript" src="themes/assets/js/pages/wizard_form.js"></script>
+<script type="text/javascript" src="themes/assets/js/core/libraries/jquery_ui/core.min.js"></script>
+<script type="text/javascript" src="themes/assets/js/plugins/forms/wizards/form_wizard/form.min.js"></script>
+<script type="text/javascript" src="themes/assets/js/plugins/forms/wizards/form_wizard/form_wizard.min.js"></script>
+<script type="text/javascript" src="themes/assets/js/plugins/forms/selects/select2.min.js"></script>
+<script type="text/javascript" src="themes/assets/js/plugins/forms/styling/uniform.min.js"></script>
+<script type="text/javascript" src="themes/assets/js/core/libraries/jasny_bootstrap.min.js"></script>
+<script type="text/javascript" src="themes/assets/js/plugins/forms/validation/validate.min.js"></script>
+<script type="text/javascript" src="themes/assets/js/plugins/notifications/sweet_alert.min.js"></script>
+
+  <script type="text/javascript" src="themes/assets/js/plugins/visualization/d3/d3.min.js"></script>
+  <script type="text/javascript" src="themes/assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+  <script type="text/javascript" src="themes/assets/js/plugins/forms/styling/switchery.min.js"></script>
+  <script type="text/javascript" src="themes/assets/js/plugins/forms/styling/uniform.min.js"></script>
+  <script type="text/javascript" src="themes/assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+  <script type="text/javascript" src="themes/assets/js/plugins/ui/moment/moment.min.js"></script>
+  <script type="text/javascript" src="themes/assets/js/plugins/pickers/daterangepicker.js"></script>
+  <script type="text/javascript" src="themes/assets/js/core/app.js"></script>
+  <script type="text/javascript" src="themes/assets/js/pages/dashboard.js"></script>
+  <script type="text/javascript" src="themes/assets/js/plugins/ui/ripple.min.js"></script>
+  <!-- /theme JS files -->
+
+
+  </head>
+<body>
+  <!-- Main navbar -->
+  <div class="navbar navbar-inverse bg-indigo">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.php?mnux=loginprc&gos=berhasil">Simak - UIN Raden Fatah</a>
+
+      <ul class="nav navbar-nav visible-xs-block">
+        <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+        <li><a class="sidebar-mobile-main-toggle"><i class="icon-paragraph-justify3"></i></a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-collapse collapse" id="navbar-mobile">
+      <ul class="nav navbar-nav">
+        <li><a class="sidebar-control sidebar-main-toggle hidden-xs"><i class="icon-paragraph-justify3"></i></a></li>
+      </ul>
+
+      <div class="navbar-right">
+        <p class="navbar-text">Assalamualaikum, FADLY RACHMANDANI!</p>
+        <p class="navbar-text"><span class="label bg-success-400">Online</span></p>
+      </div>
+    </div>
+  </div>
+  <!-- /main navbar -->
+  <div class="page-container">
+
+    <!-- Page content -->
+    <div class="page-content"><!-- Main sidebar -->
+            <div class="sidebar sidebar-main sidebar-default">
+                <div class="sidebar-content">
+                    <!-- User menu -->
+                    <div class="sidebar-user-material">
+                        <div class="category-content">
+                            <div class="sidebar-user-material-content">
+                                <a href="#"><img src="foto/logo.png" class="img-circle img-responsive" alt=""></a>
+                                <h6>FADLY RACHMANDANI</h6>
+                                <span class="text-size-small">Mahasiswa</span>
+                            </div>
+                                                        
+                            <div class="sidebar-user-material-menu">
+                                <a href="#user-nav" data-toggle="collapse"><span>Logout / Keluar Aplikasi</span> <i class="caret"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="navigation-wrapper collapse" id="user-nav">
+                            <ul class="navigation">
+                                <!--<li><a href="#"><i class="icon-user-plus"></i> <span>My profile</span></a></li>
+                                <li><a href="#"><i class="icon-coins"></i> <span>My balance</span></a></li>
+                                <li><a href="#"><i class="icon-comment-discussion"></i> <span><span class="badge bg-teal-400 pull-right">58</span> Messages</span></a></li>
+                                <li class="divider"></li>
+                                <li><a href="#"><i class="icon-cog5"></i> <span>Account settings</span></a></li>-->
+                                <li><a href="?mnux=loginprc&gos=lout"><i class="icon-switch2"></i> <span>Logout</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /user menu -->
+
+
+                    <!-- Main navigation -->
+                    <div class="sidebar-category sidebar-category-visible">
+                        <div class="category-content no-padding">
+                            <ul class="navigation navigation-main navigation-accordion">
+                                <!-- Main -->
+                                <li class="navigation-header"><span>Main</span> <i class="icon-menu" title="Main pages"></i></li>
+                                <li class="active"><a href="index.php?mnux=loginprc&gos=berhasil"><i class="icon-home4"></i> <span>Dashboard</span></a></li><li><a hre='#' class="has-ul legitRipple"><i class="icon-stack2"></i><span>Mahasiswa</span></a><ul><li><a href="?mnux=mhsw/mhswpwd&mdlid=179&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">03 Biodata</a></li><li><a href="?mnux=baa/transkrip&mdlid=198&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">07 Transkrip Nilai</a></li><li><a href="?mnux=jur/krs&mdlid=42&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">Kartu Rencana Studi</a></li><li><a href="?mnux=mhsw/mhswnilai&mdlid=43&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">Nilai Semester</a></li><li><a href="?mnux=mhsw/RegIjazah&mdlid=242&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">Pengajuan Cetak Ijazah</a></li><li><a href="?mnux=mhsw/wisuda&mdlid=199&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">Registrasi Wisuda</a></li><li><a href="?mnux=resetpwdmhsw&mdlid=52&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">Reset Password Mahasiswa</a></li><li><a href="?mnux=jur/semesterantara&mdlid=232&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">Semester Antara (SA)</a></li><li><a href="?mnux=mhsw/SertifikatBTA&mdlid=268&PHPSESSID=o9u6vg3vpaadh18gli7kqjb5d0">Sertifikat BTA</a></li></ul></li><!-- /page kits -->
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /main navigation -->
+
+                </div>
+            </div>
+            <!-- /main sidebar --><div class="content-wrapper"><!-- Page header -->
+                  <div class="page-header">
+                    <div class="page-header-content">
+                      <div class="page-title">
+                        <h4><i class="icon-home position-left"></i> <span class="text-semibold">Mahasiswa &raquo; Reset Password Mahasiswa</span></h4>
+                        <ul class="breadcrumb position-right">
+                          <li><a href="#">Mahasiswa &raquo; Reset Password Mahasiswa</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+            <!-- /page header --><div class="content" style="margin-bottom: -74px;">
+          <!-- Form horizontal -->
+          <div class="panel panel-flat">
+            <div class="panel-heading">
+              <h5 class="panel-title">Password Mahasiswa<a class="heading-elements-toggle"><i class="icon-more"></i></a></h5>
+            </div>
+            <div class="panel-body">  <table class=table cellspacing=1 align=center width=600>
+  <form name='frmPwd' action='?' method=POST onSubmit="return CheckPassword(frmPwd)">
+  <input type=hidden name='gos' value='SimpanPwd' />
+  
+  <tr><td class=inp width=80>NIM:</td>
+      <td class=ul width=80><input type=text name='_MhswID' disabled value='23041450068' size=20 maxlength=50 /></td>
+      <td class=inp width=80>Nama Mhsw:</td>
+      <td class=ul><b>FADLY RACHMANDANI</b>&nbsp;</td>
+      </tr>
+      
+  <tr><td class=inp valign=top>Pwd Baru:</td>
+      <td class=ul valign=top>
+        <input type=text name='PWD1' size=20/>
+      </td>
+      <td class=inp valign=top>Pwd Baru:</td>
+      <td class=ul valign=top>
+        <input type=text name='PWD2' size=20/><br />
+        *) tuliskan password baru sekali lagi
+      </td>
+      </tr>
+      <br />
+      <div class="alert alert-info alert-styled-left alert-arrow-left alert-component">
+            <button type="button" class="close" data-dismiss="alert"><span>×</span><span class="sr-only">Close</span></button>
+            <h6 class="alert-heading text-semibold">Informasi</h6>
+                  Ketik password baru anda minimal 4 karakter, maksimal 10 karakter.
+          </div>
+      </td>
+      </tr>
+  <tr><td class=ul colspan=4 align=center>
+      <input type=submit name='Simpan' value='Simpan Password Baru' class='btn btn-primary'/>
+      </td>
+      </tr>
+  
+  </form>
+  </table>
+  </div>
+  </div>
+  
+  <script>
+  function CheckPassword(frm) {
+    var pesan = "";
+    if (frm.PWD1.value == '' || frm.PWD2.value == '')
+      pesan += "Password tidak boleh kosong. \n";
+    if (frm.PWD1.value.length < 4)
+      pesan += "Password harus lebih dari 4 karakter. \n";
+    if (frm.PWD1.value != frm.PWD2.value)
+      pesan += "Ketikkan password baru 2 kali dengan benar. \n";
+    if (pesan != "") alert(pesan);
+    return pesan == "";
+  }
+  </script>
+          </div>
+          <!-- /content area -->
+          </div>
+          <!-- /main content --></div></div>
+      </div>
+</BODY>
+
+</HTML>
+ 

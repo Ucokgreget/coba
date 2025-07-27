@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 91%);
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px hsla(0, 0%, 0%, 0.671);
+}
+
+h1{
+    margin-bottom: 25px;
+    color: rgb(0, 136, 248);
+}
+
+#textBox{
+    width: 55%;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 20px;
+    font-size: 1.5em;
+    background-color: rgb(9, 178, 230);
+    color: beige;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(7, 114, 146);
+    transition: 2ms;
+}
+
+
