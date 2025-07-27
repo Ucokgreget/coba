@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#myButton{
+    font-size: 2em;
+    padding: 2px 25px;
+    text-align: center;
+}
+
+.Label{
+    font-size: 2em;
+}
