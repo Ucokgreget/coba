@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myH1{
+    font-size: 3rem;
+    
+}
+
+#choice{
+    margin-bottom: 20px;
+}
+
+#choice button{
+    font-size: 7.5rem;
+    min-width: 160px;
+    margin: 0 10px;
+    background-color: hsl(187, 100%, 50%);
+    border-radius: 250px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#choice button:hover{
+    background-color: hsl(187, 100%, 40%);;
+}
+
+#playerDisplay, #computerDisplay{
+    font-size: 3rem;
+
+}
+
+#resultDisplay{
+    font-size: 4rem;
+}
+
+.menang{
+    color: hsl(120, 100%, 53%);
+}
+
+.kalah{
+    color: hsl(0, 94%, 54%);
+}
+
+.scoreDisplay{
+    font-size: 2rem;
+}
