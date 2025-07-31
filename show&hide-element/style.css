@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+Button{
+    font-size: 2rem;
+}
+
+.control {
+  display: flex;
+  align-items: center;     /* Menjaga vertikaal */
+  gap: 10px;               
+}
+
